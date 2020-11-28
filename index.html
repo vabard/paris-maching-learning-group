@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap style CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7COrbitron:400,700" rel="stylesheet">
+
+	<meta name="description" content="Paris Machine Learning Group - 3rd largest Data Scientist group" />
+	<meta name="author" content="Vassilina Bardol">
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@ParisMLgroup" />
+	<meta name="twitter:creator" content="@ParisMLgroup">
+	<meta name="twitter:url" content="http://www.parismlgroup.org" />
+	<meta name="twitter:title" content="Paris Machine Learning Group - meetup" />
+	<meta name="twitter:description" content="Paris Machine Learning Group - 3rd largest Data Scientist group" />
+	<meta name="twitter:image" content="img/Paris-Machine-Learning-group-card.png" />
+
+	<!-- Open Graph data Facebook -->
+	<meta property="og:title" content="Paris Machine Learning Group - meetup" />
+	<meta property="og:description" content="Paris Machine Learning Group - 3rd largest Data Scientist group" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="img/Paris-Machine-Learning-group-card.png" />
+	<meta property="og:url" content="http://www.parismlgroup.org" />
+	<meta property="og:site_name" content="Paris Machine Learning Group - meetup" />
+	<meta property="og:local" content="en_EN" />
+
+	<title>Paris Machine Learning Group - meetup - 3rd largest Data Scientist group</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="img/ML-20x20.ico" />
+
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-105027230-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="80">
+	<!-- Share Side Bar -->
+	<!-- SideBar Share Buttons -->
+<div id="sideBarShareBtns" class="container-fluid">
+	<div class="row">
+		<ul id="shareList" class="list-unstyled">
+
+			<!-- Share Btn-->
+			<li>
+				<small>SHARE</small>
+			</li>
+			<!-- End Share Btn-->
+
+			<!-- Twitter Share-->
+			<li>
+				<a data-toggle="tooltip" data-placement="right" title="Share on Twitter" target="_blank" href="#">
+					<div id="shareTwitterBtn" class="buttonShare share_twitter"></div>
+				</a>
+			</li>
+			<!-- End Twitter -->
+
+			<!-- Facebook Share -->
+			<li>
+				<a data-toggle="tooltip" data-placement="right" title="Share on Facebook" target="_blank" href="#">
+					<div id="shareFacebookBtn" class="buttonShare share_facebook"></div>
+				</a>
+			</li>
+			<!-- End Facebook Share -->
+
+			<!-- Linkedin Share -->
+			<li>
+				<a data-toggle="tooltip" data-placement="right" title="Share on Linkedin" target="_blank" href="#">
+					<div id="shareLinkedinBtn" class="buttonShare share_linkedin"></div>
+				</a>
+			</li>
+			<!-- End Linkedin Share -->
+
+			<!-- Google+ Share -->
+			<li>
+				<a data-toggle="tooltip" data-placement="right" title="Share on Google+" target="_blank" href="#">
+					<div id="shareGooglePlusBtn" class="buttonShare share_gplus"></div>
+				</a>
+			</li>
+			<!-- End Google+ Share -->
+
+			<!-- Mail Share -->
+			<li>
+				<a data-toggle="tooltip" data-placement="right" title="Share by e-mail" href="mailto:?&body=www.parismlgroup.org&nbsp;Paris&nbsp;Machine&nbsp;Learning&nbsp;Group&nbsp;-&nbsp;3rd&nbsp;largest&nbsp;Data-Scientist&nbsp;group">
+					<div id="shareMailBtn" class="buttonShare"></div>
+				</a>
+			</li>
+			<!-- End Mail Share -->
+		</ul>
+	</div>
+</div>
+<!-- End SideBar Share Buttons -->
+
+	<!-- Navigation -->
+	<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top affix">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+		    	<span class="sr-only">Toggle navigation</span>
+		    	<span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span> 
+		    </button>
+			<a class="hidden-sm hidden-md navbar-brand" href="index.html">
+				<img id="logo" src="img/ML.png" alt="Logo Paris ML group">
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="index.html" class="active text-uppercase">Home<span class="sr-only">(current)</span></a></li>
+				<li><a href="about.html" class="text-uppercase">About</a></li>
+				<!--<li><a href="events.html" class="text-uppercase">Events</a></li>-->
+				<!-- <li><a href="archives.html" class="text-uppercase">Archives</a></li>-->
+				<li><a href="members.html" class="text-uppercase">Members</a></li>
+				<li><a href="speakers.html" class="text-uppercase">Speakers</a></li>
+				<li><a href="#footer" class="text-uppercase">Contact</a></li>
+				<li><a href="faq.html" class="text-uppercase">FAQ</a></li>
+			</ul>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container-fluid -->
+</nav>
+<!-- /. Navigation -->
+
+	<!-- Header -->
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 ccol-xs-12 col-sm-12 col-md-12 ol-lg-12">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<h1><mark>Paris Machine Learning Group</mark></h1>
+						</div>
+					</div>
+	
+					<div class="row">
+	
+						<!-- Logo ML -->
+						<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 center-block centerBlockVertically">
+							<img id="logoMl" class="img-responsive" src="img/logo-meetup-paris-machine-learning-group.png" alt="Evenement-MeetUpML-logos">
+						</div>
+						<!-- ./Logo ML -->
+	
+						<div class="col-xs-8 col-sm-8 col-md-9 col-lg-9 center-block text-center">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center-block" id="divHeader1">
+								<div class="divLogo0">
+									<div class="divLogo1 center-block centerBlockVertically">
+										<p class="text-center headerText1">Disseminate the most <b>recent Data-Science research</b> to non-specialists</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center-block" id="divHeader2">
+								<div class="divLogo0">
+									<div class="divLogo1 center-block centerBlockVertically">
+										<p class="text-center headerText1">Connect to <b>experts in free</b> meetups</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+	
+					<div class="row">
+						<!-- Slider -->
+						<div class="row text-center slider">
+	
+							<!-- Slide 0 -->
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="slide0">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<div class="divLogo0">
+										<div class="divLogo1 center-block centerBlockVertically">
+											<p class="text-center headerText2">We are a group of passionate <b>Artificial Intelligence</b> technologists.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+	
+							<!-- Slide 1 -->
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="slide1">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<div class="divLogo0">
+										<div class="divLogo1 center-block centerBlockVertically">
+											<p class="text-center headerText2">Every month, we bring the <b>brightest specialists</b> &amp; minds to our audience.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+	
+							<!-- Slide 2 -->
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="slide2">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<div class="divLogo0">
+										<div class="divLogo1 center-block centerBlockVertically">
+											<p class="text-center headerText2">We are the <b>3rd such largest group</b> in the world on the topic of <b>Machine Learning</b> &amp; keep growing.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- ./Slider -->
+					</div>
+				</div>
+				<!-- ./col -->
+			</div>
+			<!-- ./row -->
+		</div>
+		<!-- ./ Conteiner -->
+	</header>
+
+	<!-- Mission -->
+	<section id="mission">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h2><mark>our mission</mark></h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-centered">
+					<p class="lead">We aim to disseminate cutting edge Artificial Intelligence algorithms &amp; results in free conferences accessible to non-specialists.</p>
+					<p class="btnSection"><a class="btnD btn-1 btn-1e" href="about.php" role="button" title="Learn more about us">LEARN MORE ABOUT US</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Key Facts -->
+	<section id="keyFacts">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+	
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 colKeyFact">
+						<div class="keyFact text-center centerBlockVertically lead"><span class="numberKeyFact">4</span><br>seasons</div>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 colKeyFact">
+						<div class="keyFact text-center centerBlockVertically lead"><span class="numberKeyFact">80</span><br>episodes</div>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 colKeyFact">
+						<div class="keyFact text-center centerBlockVertically lead"><span class="numberKeyFact">5,800</span><br>members</div>
+					</div>
+	
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 colKeyFact">
+						<div class="keyFact text-center centerBlockVertically lead"><span class="numberKeyFact">180</span><br>speakers</div>
+					</div>
+	
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section NextEvent 
+	<?php include("nextEvent.php"); ?>-->
+
+	<!-- Section PreviousEvent 
+	<?php include("previousEvent.php"); ?>-->
+
+
+
+
+	<!-- Partners Events 
+	<?php include("partnersEvents.php"); ?>-->
+
+	<!-- Twitter time line ParisMLgroup-->
+	<section id="TwitterTimelineSection">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2><mark>Tweets</mark></h2>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-centered centerBlockVertically">
+					<div class="sectionBox">
+						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+							<a class="twitter-timeline" data-lang="en" data-height="50vh" data-link-color="#b21238" href="https://twitter.com/ParisMLgroup">Tweets by ParisMLgroup</a>
+						</div>
+						<div class="hidden-xs col-sm-4 col-md-4 col-lg-4">
+							<a class="twitter-timeline" data-lang="en" data-height="50vh" data-link-color="#b21238" href="https://twitter.com/bardolfranck">Tweets by bardolfranck</a>
+						</div>
+						<div class="hidden-xs col-sm-4 col-md-4 col-lg-4">
+							<a class="twitter-timeline" data-lang="en" data-height="50vh" data-link-color="#b21238" href="https://twitter.com/hashtag/MachineLearning" data-widget-id="895964639258923008">Tweets on #MachineLearning</a>
+
+						</div>
+					</div>
+					<!-- ./sectionBox -->
+				</div>
+				<!-- ./col -->
+			</div>
+			<!-- ./row -->
+		</div>
+		<!-- ./container -->
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<div id="footer">
+			<div class="container">
+	
+				<div class="row">
+					<!-- Title h2 of section -->
+					<div class="col-lg-12 text-center">
+						<h2><mark>Contact</mark></h2>
+					</div>
+				</div>
+				<!-- ./Title of section -->
+	
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-centered text-center">
+						<!-- Social Buttons -->
+						<div class="col-sm-12 col-md-12 col-centered text-center">
+							<div>
+								<ul id="socialList" class="list-unstyled list-inline">
+									<!-- YouTube -->
+									<li>
+										<a data-toggle="tooltip" data-placement="bottom" title="Watch on YouTube" target="_blank" href="https://www.youtube.com/playlist?list=PLDT1qqBO0EN_C5iLOnuxMW-Q_M4iYGRwr">
+											<div id="socialYoutubeBtn" class="buttonSectionContact"></div>
+										</a>
+									</li>
+									<!-- End YouTube -->
+	
+									<!-- Twitter-->
+									<li>
+										<a data-toggle="tooltip" data-placement="bottom" title="Watch on Twitter" target="_blank" href="https://twitter.com/ParisMLgroup">
+											<div id="socialTwitterBtn" class="buttonSectionContact"></div>
+										</a>
+									</li>
+									<!-- End Twitter -->
+	
+									<!-- Linkedin -->
+									<li>
+										<a data-toggle="tooltip" data-placement="bottom" title="Watch on Linkedin" target="_blank" href="https://www.linkedin.com/groups/6400776">
+											<div id="socialLinkedinBtn" class="buttonSectionContact"></div>
+										</a>
+									</li>
+									<!-- End Linkedin  -->
+	
+									<!-- Google+ -->
+									<li>
+										<a data-toggle="tooltip" data-placement="bottom" title="Watch on Google+" target="_blank" href="https://plus.google.com/communities/115114480024678808065">
+											<div id="socialGooglePlusBtn" class="buttonSectionContact"></div>
+										</a>
+									</li>
+									<!-- End Google+ -->
+	
+									<!-- Facebook -->
+									<li>
+										<a data-toggle="tooltip" data-placement="bottom" title="Watch on Facebook" target="_blank" href="https://www.facebook.com/ParisMachineLearning">
+											<div id="socialFacebookBtn" class="buttonSectionContact"></div>
+										</a>
+									</li>
+									<!-- End Facebook -->
+	
+									<!-- MailTo -->
+									<li>
+										<a data-toggle="tooltip" data-placement="bottom" title="Send e-mail" href="mailto:?to=bardolfranck@gmail.com">
+											<div id="socialMailTo" class="buttonSectionContact"></div>
+										</a>
+									</li>
+									<!-- End MailTo -->
+	
+								</ul>
+							</div>
+						</div>
+						<!-- ./ Social Buttons -->
+	
+						<div class="col-sm-6 col-md-6">
+							<p class="text-center btnSection">
+								<a class="btnD btn-1wt btn-1e" href="https://docs.google.com/forms/d/e/1FAIpQLSdRvXTzzPhhsYTwgH8nqC5YyTYFAH6i_S1VjPic4kXrCvZ8qg/viewform?c=0&w=1" role="button" target="_blanK" title="contact us!">become a speaker,<br>a sponsor or a host</a>
+							</p>
+						</div>
+	
+						<!-- join us -->
+						<div class="col-sm-6 col-md-6">
+							<p class="text-center btnSection">
+								<a class="btnD btn-1wt btn-1e" href="https://www.meetup.com/fr-FR/Paris-Machine-learning-applications-group" role="button" target="_blanK" title="Join us!">become a member!<br>it's free on meetup.com</a>
+							</p>
+						</div>
+						<!-- ./join us -->
+					</div>
+				</div>
+				<!-- ./ row  -->
+	
+				<div id="copyright" class="row text-center whiteFont">
+					© Developed by <a class="whiteFont" href="https://www.linkedin.com/in/vassilinabardol/">Vassilina Bardol</a></div>
+			</div>
+			<!-- ./ container -->
+		</div>
+	</footer>
+
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Bootstrap JavaScript CDN -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- Personal Script-->
+	<script src="js/script.js"></script>
+</body>
+
+</html>
