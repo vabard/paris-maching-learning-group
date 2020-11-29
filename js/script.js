@@ -60,13 +60,6 @@ window.twttr = (function (d, s, id) {
 		popupCenter(shareUrl, "Share on Facebook");
 	});
 
-	document.querySelector('.share_gplus').addEventListener('click', function (e) {
-		e.preventDefault();
-		var url = document.location.href;
-		var shareUrl = "https://plus.google.com/share?url=" + encodeURIComponent(url);
-		popupCenter(shareUrl, "Share on Google+");
-	});
-
 	document.querySelector('.share_linkedin').addEventListener('click', function (e) {
 		e.preventDefault();
 		var url = document.location.href;
