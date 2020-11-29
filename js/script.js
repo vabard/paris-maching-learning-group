@@ -92,17 +92,15 @@ $(function () { // Verification de la disponibilité du DOM avant d'exécuter du
 	}
 
 	// Apres chargement de logoMl on execute la fonction slider()
-	$("h1").fadeIn(1000, function () {
-		
-	});
-$("#logoMl").fadeIn(1000, function () {
-			
-		});
-$("#divHeader1").fadeIn(1000, function () {
-				
-			});
-$("#divHeader2").fadeIn(1000, function () {
-					slider();
+	$("h1").fadeIn(1000, function () {});
+	$("#logoMl").fadeIn(1000, function () {});
+	$(".logoNeurips").fadeIn(1000, function () {});
+
+	/* $("#divHeader1").fadeIn(1000, function () {
+					
 				});
+	$("#divHeader2").fadeIn(1000, function () {
+						slider();
+					}); */
 
 }); // End Verification de la disponibilité du DOM avant d'exécuter du code jQuery
